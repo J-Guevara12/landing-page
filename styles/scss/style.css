@@ -22,8 +22,12 @@ li {
   margin: 0 0 0 20px;
 }
 
+li:hover {
+  text-decoration: underline;
+}
+
 .header, .footer {
-  background-color: #150485;
+  background: linear-gradient(315deg, #150486 0%, #c62a87 100%);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -51,7 +55,7 @@ li {
 }
 
 .links {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .navbar, .media {
@@ -78,7 +82,7 @@ li {
   width: 110px;
   text-align: center;
   border-radius: 10px;
-  background-color: #590995;
+  background-color: #C62A88;
   font-size: 24px;
   font-weight: bolder;
   color: #42D3B9;
@@ -159,7 +163,9 @@ li {
 }
 
 .card .button {
+  width: 120px;
   border: 3px #42D3B9 solid;
+  background-color: #590995;
 }
 
 .card-header {
