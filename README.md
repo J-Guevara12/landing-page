@@ -1,16 +1,6 @@
-# what to do?
+# Safe ARV!
 
-Just execute the following
+This is a tourism agency-like page, the layout was inspired by the landing page project in the Odin Project
 
-```
-npm init
-npm install --save-dev gulp gulp-sass sass browser-sync
-```
-## finally
-run 
-
-```
-gulp watch
-```
-
-inside your scss folder!
+## Live preview?
+Sure, click (here)[https://j-guevara12.github.io/landing-page/]
